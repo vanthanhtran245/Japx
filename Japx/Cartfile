@@ -1,0 +1,3 @@
+github "Alamofire/Alamofire" "4.9.0"
+github "Moya/Moya" ~> 13.0
+github "RxSwiftCommunity/RxAlamofire" ~> 5.0

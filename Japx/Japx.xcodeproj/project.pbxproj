@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F151A49231F527500B5A111 /* Japx.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F151A47231F527500B5A111 /* Japx.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F151A6B231F529300B5A111 /* JapxRxCodableMoya.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F151A53231F529300B5A111 /* JapxRxCodableMoya.swift */; };
+		9F151A6C231F529400B5A111 /* JapxMoya.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F151A55231F529300B5A111 /* JapxMoya.swift */; };
+		9F151A6D231F529400B5A111 /* JapxRxAlamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F151A57231F529300B5A111 /* JapxRxAlamofire.swift */; };
+		9F151A6E231F529400B5A111 /* JapxAlamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F151A59231F529300B5A111 /* JapxAlamofire.swift */; };
+		9F151A6F231F529400B5A111 /* Japx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F151A5B231F529300B5A111 /* Japx.swift */; };
+		9F151A70231F529400B5A111 /* JapxCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F151A5D231F529300B5A111 /* JapxCodable.swift */; };
+		9F151A72231F529400B5A111 /* JapxCodableAlamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F151A60231F529300B5A111 /* JapxCodableAlamofire.swift */; };
+		9F151A73231F529400B5A111 /* JapxCodableMoya.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F151A62231F529300B5A111 /* JapxCodableMoya.swift */; };
+		9F151A74231F529400B5A111 /* JapxRxCodableAlamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F151A64231F529300B5A111 /* JapxRxCodableAlamofire.swift */; };
+		9F151A75231F529400B5A111 /* JapxRxMoya.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F151A66231F529300B5A111 /* JapxRxMoya.swift */; };
+		9F151A76231F529400B5A111 /* JapxObjC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F151A68231F529300B5A111 /* JapxObjC.swift */; };
+		9F151A77231F529400B5A111 /* NSError+Japx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F151A69231F529300B5A111 /* NSError+Japx.swift */; };
+		9F151A79231F53BD00B5A111 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 9F151A78231F53BD00B5A111 /* Cartfile */; };
+		9F151A7C231F544B00B5A111 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F151A7B231F544B00B5A111 /* Alamofire.framework */; };
+		9F151A7E231F55E000B5A111 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F151A7D231F55E000B5A111 /* RxSwift.framework */; };
+		9F151A80231F566900B5A111 /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F151A7F231F566900B5A111 /* Moya.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9F151A44231F527500B5A111 /* Japx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Japx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F151A47231F527500B5A111 /* Japx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Japx.h; sourceTree = "<group>"; };
+		9F151A48231F527500B5A111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F151A53231F529300B5A111 /* JapxRxCodableMoya.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JapxRxCodableMoya.swift; sourceTree = "<group>"; };
+		9F151A55231F529300B5A111 /* JapxMoya.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JapxMoya.swift; sourceTree = "<group>"; };
+		9F151A57231F529300B5A111 /* JapxRxAlamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JapxRxAlamofire.swift; sourceTree = "<group>"; };
+		9F151A59231F529300B5A111 /* JapxAlamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JapxAlamofire.swift; sourceTree = "<group>"; };
+		9F151A5B231F529300B5A111 /* Japx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Japx.swift; sourceTree = "<group>"; };
+		9F151A5D231F529300B5A111 /* JapxCodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JapxCodable.swift; sourceTree = "<group>"; };
+		9F151A60231F529300B5A111 /* JapxCodableAlamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JapxCodableAlamofire.swift; sourceTree = "<group>"; };
+		9F151A62231F529300B5A111 /* JapxCodableMoya.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JapxCodableMoya.swift; sourceTree = "<group>"; };
+		9F151A64231F529300B5A111 /* JapxRxCodableAlamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JapxRxCodableAlamofire.swift; sourceTree = "<group>"; };
+		9F151A66231F529300B5A111 /* JapxRxMoya.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JapxRxMoya.swift; sourceTree = "<group>"; };
+		9F151A68231F529300B5A111 /* JapxObjC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JapxObjC.swift; sourceTree = "<group>"; };
+		9F151A69231F529300B5A111 /* NSError+Japx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSError+Japx.swift"; sourceTree = "<group>"; };
+		9F151A78231F53BD00B5A111 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		9F151A7B231F544B00B5A111 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		9F151A7D231F55E000B5A111 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		9F151A7F231F566900B5A111 /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Moya.framework; path = Carthage/Build/iOS/Moya.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F151A41231F527500B5A111 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F151A80231F566900B5A111 /* Moya.framework in Frameworks */,
+				9F151A7E231F55E000B5A111 /* RxSwift.framework in Frameworks */,
+				9F151A7C231F544B00B5A111 /* Alamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F151A3A231F527500B5A111 = {
+			isa = PBXGroup;
+			children = (
+				9F151A78231F53BD00B5A111 /* Cartfile */,
+				9F151A46231F527500B5A111 /* Japx */,
+				9F151A45231F527500B5A111 /* Products */,
+				9F151A7A231F544A00B5A111 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9F151A45231F527500B5A111 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F151A44231F527500B5A111 /* Japx.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F151A46231F527500B5A111 /* Japx */ = {
+			isa = PBXGroup;
+			children = (
+				9F151A51231F529300B5A111 /* Classes */,
+				9F151A47231F527500B5A111 /* Japx.h */,
+				9F151A48231F527500B5A111 /* Info.plist */,
+			);
+			path = Japx;
+			sourceTree = "<group>";
+		};
+		9F151A51231F529300B5A111 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9F151A52231F529300B5A111 /* RxCodableMoya */,
+				9F151A54231F529300B5A111 /* Moya */,
+				9F151A56231F529300B5A111 /* RxAlamofire */,
+				9F151A58231F529300B5A111 /* Alamofire */,
+				9F151A5A231F529300B5A111 /* Core */,
+				9F151A5C231F529300B5A111 /* Codable */,
+				9F151A5F231F529300B5A111 /* CodableAlamofire */,
+				9F151A61231F529300B5A111 /* CodableMoya */,
+				9F151A63231F529300B5A111 /* RxCodableAlamofire */,
+				9F151A65231F529300B5A111 /* RxMoya */,
+				9F151A67231F529300B5A111 /* ObjC */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9F151A52231F529300B5A111 /* RxCodableMoya */ = {
+			isa = PBXGroup;
+			children = (
+				9F151A53231F529300B5A111 /* JapxRxCodableMoya.swift */,
+			);
+			path = RxCodableMoya;
+			sourceTree = "<group>";
+		};
+		9F151A54231F529300B5A111 /* Moya */ = {
+			isa = PBXGroup;
+			children = (
+				9F151A55231F529300B5A111 /* JapxMoya.swift */,
+			);
+			path = Moya;
+			sourceTree = "<group>";
+		};
+		9F151A56231F529300B5A111 /* RxAlamofire */ = {
+			isa = PBXGroup;
+			children = (
+				9F151A57231F529300B5A111 /* JapxRxAlamofire.swift */,
+			);
+			path = RxAlamofire;
+			sourceTree = "<group>";
+		};
+		9F151A58231F529300B5A111 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				9F151A59231F529300B5A111 /* JapxAlamofire.swift */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		9F151A5A231F529300B5A111 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				9F151A5B231F529300B5A111 /* Japx.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		9F151A5C231F529300B5A111 /* Codable */ = {
+			isa = PBXGroup;
+			children = (
+				9F151A5D231F529300B5A111 /* JapxCodable.swift */,
+			);
+			path = Codable;
+			sourceTree = "<group>";
+		};
+		9F151A5F231F529300B5A111 /* CodableAlamofire */ = {
+			isa = PBXGroup;
+			children = (
+				9F151A60231F529300B5A111 /* JapxCodableAlamofire.swift */,
+			);
+			path = CodableAlamofire;
+			sourceTree = "<group>";
+		};
+		9F151A61231F529300B5A111 /* CodableMoya */ = {
+			isa = PBXGroup;
+			children = (
+				9F151A62231F529300B5A111 /* JapxCodableMoya.swift */,
+			);
+			path = CodableMoya;
+			sourceTree = "<group>";
+		};
+		9F151A63231F529300B5A111 /* RxCodableAlamofire */ = {
+			isa = PBXGroup;
+			children = (
+				9F151A64231F529300B5A111 /* JapxRxCodableAlamofire.swift */,
+			);
+			path = RxCodableAlamofire;
+			sourceTree = "<group>";
+		};
+		9F151A65231F529300B5A111 /* RxMoya */ = {
+			isa = PBXGroup;
+			children = (
+				9F151A66231F529300B5A111 /* JapxRxMoya.swift */,
+			);
+			path = RxMoya;
+			sourceTree = "<group>";
+		};
+		9F151A67231F529300B5A111 /* ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				9F151A68231F529300B5A111 /* JapxObjC.swift */,
+				9F151A69231F529300B5A111 /* NSError+Japx.swift */,
+			);
+			path = ObjC;
+			sourceTree = "<group>";
+		};
+		9F151A7A231F544A00B5A111 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F151A7F231F566900B5A111 /* Moya.framework */,
+				9F151A7D231F55E000B5A111 /* RxSwift.framework */,
+				9F151A7B231F544B00B5A111 /* Alamofire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9F151A3F231F527500B5A111 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F151A49231F527500B5A111 /* Japx.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9F151A43231F527500B5A111 /* Japx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F151A4C231F527500B5A111 /* Build configuration list for PBXNativeTarget "Japx" */;
+			buildPhases = (
+				9F151A3F231F527500B5A111 /* Headers */,
+				9F151A40231F527500B5A111 /* Sources */,
+				9F151A41231F527500B5A111 /* Frameworks */,
+				9F151A42231F527500B5A111 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Japx;
+			productName = Japx;
+			productReference = 9F151A44231F527500B5A111 /* Japx.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F151A3B231F527500B5A111 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "eru-thanhtv";
+				TargetAttributes = {
+					9F151A43231F527500B5A111 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 9F151A3E231F527500B5A111 /* Build configuration list for PBXProject "Japx" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9F151A3A231F527500B5A111;
+			productRefGroup = 9F151A45231F527500B5A111 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F151A43231F527500B5A111 /* Japx */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F151A42231F527500B5A111 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F151A79231F53BD00B5A111 /* Cartfile in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F151A40231F527500B5A111 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F151A6F231F529400B5A111 /* Japx.swift in Sources */,
+				9F151A72231F529400B5A111 /* JapxCodableAlamofire.swift in Sources */,
+				9F151A70231F529400B5A111 /* JapxCodable.swift in Sources */,
+				9F151A73231F529400B5A111 /* JapxCodableMoya.swift in Sources */,
+				9F151A6D231F529400B5A111 /* JapxRxAlamofire.swift in Sources */,
+				9F151A6E231F529400B5A111 /* JapxAlamofire.swift in Sources */,
+				9F151A6C231F529400B5A111 /* JapxMoya.swift in Sources */,
+				9F151A6B231F529300B5A111 /* JapxRxCodableMoya.swift in Sources */,
+				9F151A75231F529400B5A111 /* JapxRxMoya.swift in Sources */,
+				9F151A76231F529400B5A111 /* JapxObjC.swift in Sources */,
+				9F151A77231F529400B5A111 /* NSError+Japx.swift in Sources */,
+				9F151A74231F529400B5A111 /* JapxRxCodableAlamofire.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9F151A4A231F527500B5A111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9F151A4B231F527500B5A111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9F151A4D231F527500B5A111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = Japx/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thanhtv.Japx;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F151A4E231F527500B5A111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = Japx/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thanhtv.Japx;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F151A3E231F527500B5A111 /* Build configuration list for PBXProject "Japx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F151A4A231F527500B5A111 /* Debug */,
+				9F151A4B231F527500B5A111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F151A4C231F527500B5A111 /* Build configuration list for PBXNativeTarget "Japx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F151A4D231F527500B5A111 /* Debug */,
+				9F151A4E231F527500B5A111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F151A3B231F527500B5A111 /* Project object */;
+}
